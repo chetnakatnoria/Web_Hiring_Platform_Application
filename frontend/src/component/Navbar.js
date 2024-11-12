@@ -28,8 +28,8 @@ const Navbar = (props) => {
   const handleClick = (location) => {
     console.log(location);
     history.push(location);
-  };
-
+  };  
+  
   return (
     <AppBar position="fixed">
       <Toolbar>
